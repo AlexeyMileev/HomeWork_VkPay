@@ -129,7 +129,7 @@ class ComissionKtTest {
         val thisTransfer = 10_000
         val previosTransfer = 0
         val result = comission(typeCard, thisTransfer, previosTransfer)
-        assertEquals(-1, result)
+        assertEquals(-2, result)
     }
 
 }
